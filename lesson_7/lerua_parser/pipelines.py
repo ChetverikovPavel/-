@@ -29,7 +29,7 @@ class LeruaPhotosPipeline(ImagesPipeline):
 class LeruaParserPipeline:
     def __init__(self):
         client = MongoClient('localhost', 27017)
-        self.mongo_base = client.lerua1309
+        self.mongo_base = client.lerua1309_2
 
     def process_item(self, item, spider):
         item_dict = {}
